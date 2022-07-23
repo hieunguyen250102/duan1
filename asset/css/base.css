@@ -1,0 +1,80 @@
+:root {
+  --line-height: 36px;
+}
+html {
+  font-size: 62.5%; /*1rem = 10px trong th nay*/
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid-with-width {
+  width: 100%;
+}
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 0 -5px; */
+}
+.grid__column {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.grid__column-3 {
+  width: 32%;
+  margin: 10px 0;
+}
+.grid__column-2-3 {
+  width: 62%;
+  margin: 10px 0;
+}
+.grid__column-2 {
+  width: 50%;
+}
+.grid__column-4 {
+  width: 23%;
+  /* margin: 0 5px; */
+  position: relative;
+}
+.icon-right {
+  line-height: var(--line-height);
+  margin: 0 16px;
+  float: right;
+}
+.mr-8 {
+  margin-right: 8px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.btn {
+    padding: 12px 16px;
+    border-radius: 18px;
+    background-color: rgba(1, 192, 202, 0.911);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .btn:hover {
+    text-decoration: underline;
+  }
+  .pd-16 {
+    padding: 16px;
+  }
+  .pd-24 {
+    padding: 24px;
+  }
+  
